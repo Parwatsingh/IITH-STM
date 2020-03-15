@@ -2,16 +2,10 @@
     Mounika, Parwat Singh Anjana, Sathya Peri
     
     This library for provides support Software Transactional Memory (STM) in C++.
-    The documentation to use the libraries: STM Library API at
-          https://github.com/Parwatsingh/IITH-STM/edit/master/STM-Library-API.pdf
+    The documentation to use the libraries: [STM Library API](https://github.com/Parwatsingh/IITH-STM/edit/master/STM-Library-API.pdf)
 
     A recent paper describing the results of the implementation of various 
-    algorithms of IITH STM can be found here:
-          https://www.iith.ac.in/~sathya_p/lib_files/Result-Comparison.pdf
-
-    The source code used for results can be downloaded from here: 
-          http://www.iith.ac.in/~sathya_p/lib_files/IITHSTMCode.zip
-
+    algorithms of IITH STM can be found here: [Result-Comparison](https://www.iith.ac.in/~sathya_p/lib_files/Result-Comparison.pdf)
 
 ## Compile
     g++ -std=c++14 -g main.cpp txBarrier.cpp -o test -ltbb -lpthread
@@ -29,7 +23,7 @@
     you may not use files in this project except in compliance with the License.
     You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+      <http://www.apache.org/licenses/LICENSE-2.0>
 
     Unless required by applicable law or agreed to in writing,
     software distributed under the License is distributed on an 
